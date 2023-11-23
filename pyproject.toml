@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "task1"
+version = "1"
+description = "task1"
+authors = ["BrandonWF1"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standart"], version = "^0.24.0.post1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
